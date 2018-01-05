@@ -1,6 +1,7 @@
 // SeqGlobalView.cpp (nanodot)
 // e.moon apr98
 
+#include <PopUpMenu.h>
 #include <StorageKit.h>
 #include "SeqGlobalView.h"
 #include "NanoDotApp.h"
