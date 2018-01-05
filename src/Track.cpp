@@ -119,7 +119,7 @@ void Track::Run() {
 		//printf("%d: %d\n", m_nSeqPos, nWaitCount);
 
 		if(m_pMsgr) {
-			BMessage msg = new BMessage(TRACK_SEQ_STEP);
+			BMessage msg(TRACK_SEQ_STEP);
 			msg.AddInt16("pos", m_nSeqPos);
 			m_pMsgr->SendMessage(&msg);
 		}
